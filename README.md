@@ -2,6 +2,7 @@ Flutter Uygulamasını Google Playde Yayınlamak
 
 1- flutter create --org com.ideapark sayac
    // com.ideapark.sayac
+
 2- launch icon android/app/src/main/res klasörü
    https://romannurik.github.io/AndroidAssetStudio/index.html
 3- Uygulamamızı imzalayalım
@@ -60,7 +61,7 @@ Uygulama versiyonunu kontrol etme
 pubspec.yaml
 version: 1.0.1
 
-flutter clean
+flutter clean,
 flutter build apk veya flutter build appbundle
 
 
