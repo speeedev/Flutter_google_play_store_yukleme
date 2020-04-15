@@ -28,6 +28,7 @@ Flutter Uygulamasını Google Playde Yayınlamak
 5- Build.gradle düzenleme
 
    android > app > build.gradle
+   
 	def localProperties = new Properties()
 	def localPropertiesFile = rootProject.file('local.properties')
 	if (localPropertiesFile.exists()) {
@@ -42,6 +43,7 @@ Flutter Uygulamasını Google Playde Yayınlamak
 	}
 
     Sonra bu kodu bulup
+    
 	buildTypes {
        	release {
            // TODO: Add your own signing config for the release build.
@@ -52,6 +54,7 @@ Flutter Uygulamasını Google Playde Yayınlamak
    	}
 
     Bu şekilde değiştiriyoruz
+    
 	signingConfigs {
        	release {
            keyAlias keystoreProperties['keyAlias']
