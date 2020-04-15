@@ -1,5 +1,11 @@
 Flutter Uygulamasını Google Playde Yayınlamak
 
+Videoya 
+
+https://youtu.be/B7IMMJD8JFY
+
+linkinden ulaşabilirsiniz.
+
 1- flutter create --org com.ideapark sayac
 
    // com.ideapark.sayac
